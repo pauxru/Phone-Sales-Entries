@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Phone Sales Entries</h1>
+  <table>
+    <thead>
+      <tr>
+          <th colspan="5">Customer No</th>
+          <th colspan="5">M-pesa TID</th>
+          <th colspan="5">Phone Model</th>
+          <th colspan="5">Phone Serial No</th>
+          <th colspan="5">Date Activated</th>
+          <th colspan="5">Amount Paid (Ksh)</th>
+      </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="5"><input type="text" name="Customer_num" value=""></td>
+            <td colspan="5"><input type="text" name="Mpesa_tid" value=""></td>
+            <td colspan="5"><input type="text" name="Phone_Model" value=""></td>
+            <td colspan="5"><input type="text" name="Serial_num" value=""></td>
+            <td colspan="5"><input type="date" name="Date_activated" value=""></td>
+            <td colspan="5"><input type="number" name="Amount_paid" value=""></td>
+        </tr>
+    </tbody>
+</table>
+<button type="button">Save</button>
+
+</body>
+<style >
+  h1 {
+    text-align: left;
+    padding-left: 21px;
+  }
+  body {
+    background-color: #EAF6F6
+  }
+
+  tr {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+    
+  }
+
+  input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px
+  }
+
+  button {
+  border: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  border-radius: 10px
+
+}
+
+th {
+  border-right: .5px solid;
+}
+
+</style>
+</html>
